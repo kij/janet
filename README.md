@@ -394,7 +394,7 @@ Usually, one of a few reasons:
   to the core also makes it a bit more difficult to keep Janet maximally portable.
 
 ### Can I bind to Rust/Zig/Go/Java/Nim/C++/D/Pascal/Fortran/Odin/Jai/(Some new "Systems" Programming Language)?
-
+ 
 Probably, if that language has a good interface with C. But the programmer may need to do
 some extra work to map Janet's internal memory model to that of the bound language. Janet
 also uses `setjmp`/`longjmp` for non-local returns internally. This
